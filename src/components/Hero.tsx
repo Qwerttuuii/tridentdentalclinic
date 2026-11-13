@@ -4,7 +4,7 @@ import {
   BadgeCheck,
   HeartHandshake,
   MessageCircle,
-  Sparkles,
+  
 } from "lucide-react";
 import heroPatient from "../assets/images/hero-patient.jpg";
 
