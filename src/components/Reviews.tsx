@@ -42,10 +42,7 @@ export default function Reviews() {
         <div className="flex flex-col gap-8 md:flex-row md:items-end md:justify-between">
           <div>
             <div className="mb-6 flex items-center gap-3">
-              <span className="h-2 w-2 rounded-full bg-sky" />
-              <span className="text-[12px] font-bold uppercase tracking-[0.2em] text-brand">
-                Kind words
-              </span>
+         
             </div>
             <h2 className="max-w-xl text-4xl font-bold leading-tight tracking-tight text-navy md:text-5xl">
               A little love from our patients.
@@ -91,9 +88,6 @@ export default function Reviews() {
           ))}
         </div>
 
-        <p className="mt-10 text-center text-[13px] text-muted">
-          Sample testimonials for demonstration only.
-        </p>
       </div>
     </section>
   );

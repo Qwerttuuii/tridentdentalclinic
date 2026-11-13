@@ -13,7 +13,7 @@ export default function Services() {
         {/* Heading */}
         <div className="mx-auto max-w-2xl text-center">
           <div className="mb-6 flex items-center justify-center gap-3">
-            <span className="h-2 w-2 rounded-full bg-sky" />
+            
             <span className="text-[12px] font-bold uppercase tracking-[0.2em] text-brand">
               Our services
             </span>

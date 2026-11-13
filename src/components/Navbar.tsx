@@ -30,7 +30,11 @@ export default function Navbar() {
     >
       <div className="mx-auto flex h-[72px] max-w-6xl items-center justify-between px-6">
         <a href="#home" className="flex items-center" aria-label="Trident Dental Clinic home">
-          <img src={logo} alt="Trident Dental Clinic" className="h-10 w-auto md:h-11" />
+          <img
+            src={logo}
+            alt="Trident Dental Clinic"
+            className="h-12 w-36 object-cover md:h-14 md:w-44"
+          />
         </a>
 
         <nav className="hidden items-center gap-8 lg:flex">

@@ -33,10 +33,8 @@ export default function SmileResults() {
         {/* Right: copy + tabs */}
         <div>
           <div className="mb-6 flex items-center gap-3">
-            <span className="h-2 w-2 rounded-full bg-sky" />
-            <span className="text-[12px] font-bold uppercase tracking-[0.2em] text-brand">
-              Smile results
-            </span>
+            
+           
           </div>
 
           <h2 className="text-4xl font-bold leading-tight tracking-tight text-navy md:text-5xl">

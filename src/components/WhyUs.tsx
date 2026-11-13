@@ -25,13 +25,7 @@ export default function WhyUs() {
       <div className="mx-auto grid max-w-6xl items-center gap-14 px-6 lg:grid-cols-[1fr_1.1fr]">
         {/* Left: copy */}
         <div>
-          <div className="mb-6 flex items-center gap-3">
-            <span className="h-2 w-2 rounded-full bg-sky" />
-            <span className="text-[12px] font-bold uppercase tracking-[0.2em] text-brand">
-              Why Trident
-            </span>
-          </div>
-
+          
           <h2 className="text-4xl font-bold leading-tight tracking-tight text-navy md:text-5xl">
             A little more comfort. A lot more confidence.
           </h2>
@@ -64,9 +58,7 @@ export default function WhyUs() {
           />
           <div className="absolute inset-0 bg-gradient-to-t from-navy/60 via-transparent to-transparent" />
 
-          <span className="absolute right-5 top-5 bg-white px-4 py-2 text-[11px] font-bold uppercase tracking-[0.18em] text-navy">
-            01 / Our clinic
-          </span>
+         
 
           <div className="absolute bottom-6 left-6 right-6 flex items-start gap-3 text-white">
             <span className="mt-2 h-2 w-2 shrink-0 rounded-full bg-sky" />

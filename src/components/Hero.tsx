@@ -19,9 +19,7 @@ export default function Hero() {
           <div>
             <div className="mb-8 flex items-center gap-3">
               <span className="h-0.5 w-10 bg-sky" />
-              <span className="text-[12px] font-bold uppercase tracking-[0.2em] text-brand">
-                A brighter kind of dental care
-              </span>
+              
             </div>
 
             <h1 className="text-[clamp(2.75rem,7vw,5.25rem)] font-bold leading-[1.02] tracking-tight text-navy">
@@ -86,15 +84,6 @@ export default function Hero() {
               </p>
             </div>
 
-            <div className="absolute -left-4 bottom-16 flex items-center gap-3 rounded-lg bg-white px-5 py-4 shadow-[0_18px_40px_-18px_rgba(14,27,69,0.35)] md:-left-10">
-              <span className="flex h-11 w-11 items-center justify-center rounded-full bg-ice text-brand">
-                <Sparkles size={20} />
-              </span>
-              <div className="leading-tight">
-                <p className="text-[15px] font-semibold text-navy">Feel good about</p>
-                <p className="text-[13px] text-muted">your next visit</p>
-              </div>
-            </div>
           </div>
         </div>
 
