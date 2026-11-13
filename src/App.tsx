@@ -8,7 +8,6 @@ import Booking from "./components/Booking";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import FloatingChat from "./components/FloatingChat";
-const WHATSAPP_URL = "https://wa.me/2347040848555";
 
 export default function App() {
   return (
